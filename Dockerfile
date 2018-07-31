@@ -19,6 +19,5 @@ MAINTAINER "Rodrigo Martínez" <rodrigo.martinez@councilbox.com>
 # ISTANBUL TOOLS
 ################################################
 
-RUN \
-    go get github.com/getamis/istanbul-tools/cmd/istanbul
+RUN go get github.com/getamis/istanbul-tools/cmd/istanbul
 ENTRYPOINT ["istanbul"]
